@@ -1,6 +1,8 @@
+import React from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Home from "./Home";
 import MeteoApi from "./Meteo/Meteo_own_api";
+import Page404 from './Error404.js';
 
 function Rooting() {
     return (
@@ -19,18 +21,19 @@ function Rooting() {
                         </li>
                     </ul>
                 </nav>
-                <Switch>
-                    <Route path="/meteo">
-                        <MeteoApi />
-                    </Route>
-                    <Route path="/quizz">
-                        <Quizz />
-                    </Route>
-                    <Route path="/">
-                        <Home />
-                    </Route>
-                </Switch>
-            </div>
+            </div>  
+            <Switch>
+                <Route path="/meteo">
+                    <MeteoApi />
+                </Route>
+                <Route path="/quizz">
+                    <Quizz />
+                </Route>
+                <Route exact path="/">
+                    <Home />
+                </Route>  
+                <Route exact component={Page404} />
+            </Switch>
         </Router>
     );
 }
