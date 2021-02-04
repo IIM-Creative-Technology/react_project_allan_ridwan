@@ -1,0 +1,9 @@
+@import "../Helpers/variables";
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: $orange_header;
+    color: white;
+    font-weight: 500;
+}
