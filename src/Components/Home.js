@@ -3,6 +3,7 @@ import Footer from './Footer';
 import Header from "./Header";
 import Meteo from "./Meteo/Meteo";
 import Api from "./Meteo/Meteo_Ville";
+import CardExampleCard from "./Cards";
 
 function Home() {
     return (
@@ -14,6 +15,7 @@ function Home() {
         <Header title="Bienvenue sur" game_title="Questions pour un Confiné !" desc="Vous voulez que votre temps passe plus vite ? Répondez à ce quizz !" />
         <Meteo ville="Paris" />
         <Api />
+        <CardExampleCard />
         <Footer/>
       </>
     </div>
