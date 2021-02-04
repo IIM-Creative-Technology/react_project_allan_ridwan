@@ -1,0 +1,34 @@
+.App-meteo{
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(15px + 2vmin);
+    color: white;
+    margin-block-end: 0;
+}
+
+.App-temp{
+    min-height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    // border: 1px solid green;
+    font-size: calc(15px + 2vmin);
+    color: white;
+    margin-top: -10px;
+    margin-block-end: 0;
+}
+
+.App-texte-temp01{
+    font-size: calc(10px + 2vmin);
+    grid-row: 1;
+    // border: 1px solid red;
+}
+
+.App-texte-temp02{
+    font-size: calc(10px + 2vmin);
+    grid-row: 1;
+    // border: 1px solid white;
+}
