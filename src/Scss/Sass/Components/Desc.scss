@@ -1,0 +1,33 @@
+@import "../Helpers/variables";
+
+.App-desc {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: calc(15px + 2vmin);
+    color: white;
+}
+
+.App_game_title{
+    animation-name: color_title;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    margin-block-start: 0;
+    font-family: $font_title;
+}
+
+.App-gif {
+    /* height: 40vmin; */
+    max-width: 100%;
+    pointer-events: none;
+  }
+
+@keyframes color_title {
+    0% {color: white;}
+    20% {color: $yellow;}
+    80% {color: $orange;}
+    100% {color: white;}
+    
+}
