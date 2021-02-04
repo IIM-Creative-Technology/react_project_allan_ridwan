@@ -1,4 +1,5 @@
 import logo from '../Image_header.svg';
+import Footer from './Footer';
 import Header from "./Header";
 import Meteo from "./Meteo/Meteo";
 import Api from "./Meteo/Meteo_Ville";
@@ -13,6 +14,7 @@ function Home() {
         <Header title="Bienvenue sur" game_title="Questions pour un Confiné !" desc="Vous voulez que votre temps passe plus vite ? Répondez à ce quizz !" />
         <Meteo ville="Paris" />
         <Api />
+        <Footer/>
       </>
     </div>
     );
