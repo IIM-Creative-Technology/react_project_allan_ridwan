@@ -30,24 +30,16 @@
 }
 
 
-
 .App {
     text-align: center;
     background-color: #1900FB;
 }
 .App-logo {
-    /* height: 40vmin; */
     max-width: 100%;
     pointer-events: none;
 }
   
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      /* animation: App-logo-spin infinite 20s linear; */
-      max-width: 100%;
-    }
-  }
-  
+
   .App-header {
     /* background-color: #282c34; */
     min-height: 50vh;
@@ -80,4 +72,4 @@
       transform: rotate(360deg);
     }
   }
-  
+
