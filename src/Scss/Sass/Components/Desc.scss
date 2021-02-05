@@ -31,3 +31,10 @@
     100% {color: white;}
     
 }
+
+@media (max-width: 800px) {
+    .App-desc{
+        font-size: calc(10px + 2vmin);
+      }
+}
+  
