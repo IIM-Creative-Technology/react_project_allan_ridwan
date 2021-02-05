@@ -11,7 +11,7 @@ const CardExampleCard = () => (
             <img src={Champions} className="App-C1" alt="header" />
             <Card.Content>
                 <p className="Card_title">Champions League</p>
-                <a href="/" className="Card_button">Commencer</a>
+                <a href="/ChampionsLeague" className="Card_button">Commencer</a>
             </Card.Content>
         </Card>
         <Card className="Card01">

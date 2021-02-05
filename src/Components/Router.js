@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Home from "./Home";
 import MeteoApi from "./Meteo/Meteo_own_api";
 import Page404 from './Error404.js';
+import Quizz from "./Quizz";
 
 function Rooting() {
     return (
@@ -16,9 +17,9 @@ function Rooting() {
                         <li className="bulletpoint">
                             <Link to="/meteo">Météo</Link>
                         </li>
-                        <li className="bulletpoint">
+                        {/* <li className="bulletpoint">
                             <Link to="/quizz">Quizz</Link>
-                        </li>
+                        </li> */}
                     </ul>
                 </nav>
             </div>  
@@ -26,7 +27,7 @@ function Rooting() {
                 <Route path="/meteo">
                     <MeteoApi />
                 </Route>
-                <Route path="/quizz">
+                <Route path="/ChampionsLeague">
                     <Quizz />
                 </Route>
                 <Route exact path="/">
@@ -38,10 +39,5 @@ function Rooting() {
     );
 }
 
-function Quizz() {
-    return (
-        <h2>Quizz</h2>
-    );
-}
 
 export default Rooting;

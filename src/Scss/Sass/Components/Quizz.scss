@@ -1,0 +1,44 @@
+@import "../Helpers/variables";
+
+.Form_quizz{
+    background-color: $bkcolor_body;
+    padding-top: 100px ;
+    padding-bottom: 100px ;
+}
+
+.Button_next{
+    // border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EtapeSuivante{
+    background-color: #009e00;
+    color:#fff;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: $font_title;
+}
+.EtapeSuivante:hover{
+    background-color: green;
+}
+.EtapeSuivante[disabled]{
+    display: none;
+}
+
+.Page_finale{
+    text-align: center;
+}
+.Page_finale h1{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 25px;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    color: #008416;
+    text-transform: none;
+    text-shadow: none;
+}
