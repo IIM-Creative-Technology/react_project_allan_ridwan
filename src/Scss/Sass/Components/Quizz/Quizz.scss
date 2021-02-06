@@ -1,13 +1,15 @@
 @import "../../Helpers/variables";
 
-.Form_quizz{
+body{
     background-color: $bkcolor_body;
+}
+
+.Form_quizz{
     padding-top: 100px ;
     padding-bottom: 100px ;
 }
 
 .Button_next{
-    // border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +17,7 @@
 
 .EtapeSuivante{
     background-color: $orange_header;
-    color:#fff;
+    color: $white_text;
     padding: 10px 30px;
     border: 0;
     border-radius: 3px;
@@ -23,7 +25,7 @@
     font-family: $font_title;
 }
 .EtapeSuivante:hover{
-    background-color: orange;
+    background-color: $bouton_suivant_hover;
 }
 .EtapeSuivante[disabled]{
     display: none;
@@ -38,7 +40,6 @@
     font-size: 25px;
     font-family: Arial,sans-serif;
     font-weight: bold;
-    color: #008416;
     text-transform: none;
     text-shadow: none;
 }

@@ -7,7 +7,7 @@
     align-items: center;
     margin-top: 20px;
     font-size: calc(15px + 2vmin);
-    color: white;
+    color: $white_text;
 }
 
 .App_game_title{
@@ -25,10 +25,10 @@
   }
 
 @keyframes color_title {
-    0% {color: white;}
+    0% {color: $white_text;}
     20% {color: $yellow;}
     80% {color: $orange;}
-    100% {color: white;}
+    100% {color: $white_text;}
     
 }
 

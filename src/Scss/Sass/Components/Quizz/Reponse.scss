@@ -6,27 +6,27 @@
     padding: 20px 90px 30px 90px;
 }
 .Reponses li{
-    padding: 10px;
+    padding: 20px;
     border-left: 4px solid $orange_header;
-    background-color: rgb(196, 196, 196);
+    background-color: $background_li;
     margin: 0 0 5px;
     font-family: $font_title;
 }
 .Reponses li:hover{
     cursor: pointer;
-    background-color: #a2a2a2;
+    background-color: $li_reponse_hover;
 }
 .Reponses .correct,
 .Reponses .correct:hover {
-    background-color: #1db900;
-    border-left: 4px solid #0f6300;
-    color: #fff;
+    background-color: $succes_green;
+    border-left: 4px solid $succes_border_red;
+    color: $white_text;
 }
 .Reponses .incorrect,
 .Reponses .incorrect:hover {
-    background-color: #ec0000;
-    border-left: 4px solid #FF3B3B;
-    color: #fff;
+    background-color: $echec_red;
+    border-left: 4px solid $echec_border_red;
+    color: $white_text;
 }
 .Reponses[disabled] {
     pointer-events: none;
@@ -39,9 +39,3 @@
     color: $orange_header;
     padding-bottom: 10px;
 }
-
-// .Mauvaise_reponse{
-//     text-align: center;
-//     font-family: $font_title;
-//     color: red;
-// }

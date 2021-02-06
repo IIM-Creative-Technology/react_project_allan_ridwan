@@ -8,16 +8,16 @@ class Corps extends Component {
     // Préparation Questions / Réponse
     state = {
         questions: {
-            1: 'Quelle partie du corps est liée à l\'audition ?',
-            2: 'Quel est le terme médical de la colonne vertébrale ?',
-            3: 'Combien l\'homme a-t-il de doigt(s) ?',
-            4: 'Combien la peau contient-elle de couche(s) ? ',
-            5: 'Quels organes produisent les ovules ?', 
-            6: 'Le coeur est composé de combien de partie(s) ?',
-            7: 'Qu\'est-ce que l\'ADN ? ',
-            8: 'Laquelle n\'est pas une base azotée ?', 
-            9: 'Quel muscle est le plus fort ?',
-            10: 'Qu\'est-ce que l\'IMC ? '
+            1: 'Q1 : Quelle partie du corps est liée à l\'audition ?',
+            2: 'Q2 : Quel est le terme médical de la colonne vertébrale ?',
+            3: 'Q3 : Combien l\'homme a-t-il de doigt(s) ?',
+            4: 'Q4: Combien la peau contient-elle de couche(s) ? ',
+            5: 'Q5 : Quels organes produisent les ovules ?', 
+            6: 'Q6 : Le coeur est composé de combien de partie(s) ?',
+            7: 'Q7 : Qu\'est-ce que l\'ADN ? ',
+            8: 'Q8 : Laquelle n\'est pas une base azotée ?', 
+            9: 'Q9 : Quel muscle est le plus fort ?',
+            10: 'Q10 : Qu\'est-ce que l\'IMC ? '
              
         },
         reponses: {

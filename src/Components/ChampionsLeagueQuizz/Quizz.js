@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Questions from './Questions';
 import Reponses from './Reponse';
 import '../../Scss/Sass/Components/Quizz/Quizz.scss';
+import Champions from "../../assets/C1.jpg";
 
 class Champion extends Component {
 
@@ -154,6 +155,7 @@ class Champion extends Component {
                         <div className="Page_fin">
                             <h2>Le quizz sur la "Champions League" est terminé !</h2>
                             <p className="Message_reponse">Votre score est de : {score} / {Object.keys(questions).length}</p>
+                            {/* <img src={Champions} className="imageFinQuizz" alt="header" /> */}
                         </div>
                     ) 
                 }
