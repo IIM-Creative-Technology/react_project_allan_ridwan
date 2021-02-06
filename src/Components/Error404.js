@@ -8,7 +8,7 @@ function Page404() {
         <div className="Block_error">
             <h1 className="Titre_404">404</h1>
             <p className="Text_404">Ouuupsss... Mauvaise réponse ! La page que vous recherchez est introuvable. </p>
-            <Link to="/">Retour à la page principale.</Link>
+            <Link to="/">Retour à la page principale</Link>
         </div>
     )
 }
