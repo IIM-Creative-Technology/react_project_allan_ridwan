@@ -15,10 +15,10 @@ class Champion extends Component {
             4: 'Q4 : Quel est le joueur ayant le plus de Ballons d\'Or à son actif ?',
             5: 'Q5 : Quel club a gagné la dernière Champions League (2020) ?', 
             6: 'Q6 : Quel joueur argentin, légende du football mondial est décédée en 2020 ?',
-            7: 'Q7 : Quel unique club français a gagné la CL ? ',
+            7: 'Q7 : Quel unique club français a gagné la Champions League ? ',
             8: 'Q8 : Les propriétaires du PSG sont de quelle nationalité ?', 
-            9: 'Q9 : Réal de Madrid, FC Barcelone, Manchester United, PSG : qui est l\'intru ?',
-            10: 'Q10 : Qui est le gardien du Réal de Madrid en 2021 ? '
+            9: 'Q9 : Qui est l\'intru ?',
+            10: 'Q10 : Qui est le gardien du Real de Madrid en 2021 ? '
              
         },
         reponses: {
@@ -152,10 +152,12 @@ class Champion extends Component {
                             </button>
                         </div>
                     </>) : (
+                        // <Champions/>,
                         <div className="Page_fin">
-                            <h2>Le quizz sur la "Champions League" est terminé !</h2>
+                            <img src={Champions} alt="C1" className="C1"/>
+                            <h2 className="Titre_fin_quizz">Le quizz sur la "Champions League" est terminé !</h2>
                             <p className="Message_reponse">Votre score est de : {score} / {Object.keys(questions).length}</p>
-                            {/* <img src={Champions} className="imageFinQuizz" alt="header" /> */}
+                            {/* <button href="/ChampionsLeague" className="Button_retry">Refaire le quizz</button> */}
                         </div>
                     ) 
                 }

@@ -1,4 +1,4 @@
-import logo from '../Image_header.svg';
+import logo from '../assets/Image_header.png';
 import Footer from './Footer';
 import Header from "./Header";
 import Meteo from "./Meteo/Meteo";

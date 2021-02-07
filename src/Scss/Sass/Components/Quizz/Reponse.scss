@@ -9,7 +9,7 @@
     padding: 20px;
     border-left: 4px solid $orange_header;
     background-color: $background_li;
-    margin: 0 0 5px;
+    margin: 0 0 5px 0;
     font-family: $font_title;
 }
 .Reponses li:hover{
@@ -38,4 +38,10 @@
     font-family: $font_title;
     color: $orange_header;
     padding-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+    .Reponses{
+        padding: 10px 20px 30px 20px;
+    }
 }

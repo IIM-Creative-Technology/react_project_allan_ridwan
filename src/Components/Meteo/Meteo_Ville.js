@@ -59,12 +59,12 @@ class Api extends React.Component {
         <div className="App-temp">
             <p className="App-texte-temp01">Température : 
               <br/>
-              <b>{items.temp} K </b> ( <b>{Number.parseFloat(Celcius).toFixed(2)} °C</b> )</p>
+              <b className="App-numero-temp">{items.temp} K </b> ( <b className="App-numero-temp">{Number.parseFloat(Celcius).toFixed(2)} °C</b> )</p>
               <br/>
               <br/>
             <p className="App-texte-temp02">Humidité : 
               <br/>
-            <b>{items.humidity} %</b>
+            <b className="App-numero-temp">{items.humidity} %</b>
             </p>
         </div>
         );

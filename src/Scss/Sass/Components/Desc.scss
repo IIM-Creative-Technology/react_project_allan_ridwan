@@ -6,7 +6,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
-    font-size: calc(15px + 2vmin);
+    font-size: calc(10px + 2vmin);
     color: $white_text;
 }
 
@@ -16,6 +16,8 @@
     animation-iteration-count: infinite;
     margin-block-start: 0;
     font-family: $font_title;
+    font-size: calc(40px + 2vmin);
+    margin-top: -30px;
 }
 
 .App-gif {
@@ -23,6 +25,10 @@
     max-width: 100%;
     pointer-events: none;
   }
+ 
+.App_rep_quizz{
+    font-size: calc(12px + 2vmin);
+}
 
 @keyframes color_title {
     0% {color: $white_text;}
@@ -34,7 +40,14 @@
 
 @media (max-width: 800px) {
     .App-desc{
-        font-size: calc(10px + 2vmin);
+        font-size: calc(5px + 2vmin);
       }
+    .App_game_title{
+        font-size: calc(17px + 2vmin);
+        margin-top: -15px;
+    }
+    .App_rep_quizz{
+        font-size: calc(8px + 2vmin);
+    }
 }
   

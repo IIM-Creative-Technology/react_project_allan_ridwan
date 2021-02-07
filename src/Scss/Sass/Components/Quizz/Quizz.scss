@@ -1,9 +1,5 @@
 @import "../../Helpers/variables";
 
-body{
-    background-color: $bkcolor_body;
-}
-
 .Form_quizz{
     padding-top: 100px ;
     padding-bottom: 100px ;
@@ -31,10 +27,12 @@ body{
     display: none;
 }
 
-.Page_finale{
+.Page_fin{
     text-align: center;
+    margin-top: -70px;
 }
-.Page_finale h1{
+
+.Page_fin h1{
     text-align: center;
     margin: 15px 0;
     font-size: 25px;
@@ -42,4 +40,46 @@ body{
     font-weight: bold;
     text-transform: none;
     text-shadow: none;
+}
+
+.C1{
+    width: 50%;
+    border-radius: 1em ;
+}
+
+.Message_reponse{
+    font-size: calc(12px + 2vmin);
+}
+
+.Button_retry{
+    background-color: $orange_header;
+    color: $white_text;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: $font_title;
+}
+
+.Button_retry:hover{
+    background-color: $bouton_suivant_hover;
+}
+
+@media (max-width: 800px) {
+	.C1{
+        width: 90%;
+        
+    }
+    .Titre_fin_quizz{
+        font-size: calc(14px + 2vmin);
+    }
+    .Form_quizz{
+        padding-top: 40px;
+    }
+    .Message_reponse{
+        font-size: calc(10px + 2vmin);
+    }
+    .Page_fin{
+        padding-top: 60px;
+    }
 }

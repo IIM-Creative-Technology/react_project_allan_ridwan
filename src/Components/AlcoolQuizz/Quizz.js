@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Questions from './Questions';
 import Reponses from './Reponse';
 import '../../Scss/Sass/Components/Quizz/Quizz.scss';
+import Biere from "../../assets/biere-vertus.jpg";
 
 class Alcool extends Component {
 
@@ -152,6 +153,7 @@ class Alcool extends Component {
                         </div>
                     </>) : (
                         <div className="Page_fin">
+                            <img src={Biere} alt="Image_biere" className="C1"/>
                             <h2>Le quizz sur "l'Alcool" est terminé ! </h2>
                             <p className="Message_reponse">Votre score est de : {score} / {Object.keys(questions).length}</p>
                         </div>

@@ -4,12 +4,15 @@
     margin-top: -50px;
     margin-bottom: 50px;
     color: $white_text;
-    font-size: calc(15px + 2vmin);
+}
+
+.Themes{
+    font-size: calc(20px + 2vmin);
 }
 
 @media (max-width: 800px) {
-	.Title-block-cards{
-        margin-top: -90px;
-        font-size: calc(10px + 2vmin);
+    .Themes{
+        margin-top: -80px;
+        font-size: calc(13px + 2vmin);
     }
 }

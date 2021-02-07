@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Questions from './Questions';
 import Reponses from './Reponse';
 import '../../Scss/Sass/Components/Quizz/Quizz.scss';
+import OrangOutan from "../../assets/Ourang-outan.svg";
 
 class Orang extends Component {
 
@@ -11,13 +12,13 @@ class Orang extends Component {
             1: 'Q1 : Qu\'est-ce qu\'un Orang-Outan ?',
             2: 'Q2 : L\'Orang-Outan est : ',
             3: 'Q3 : Que signifie "Orang-Outan" ?',
-            4: 'Q4 : Qu\'elle(s) est l\'origine du mot "Orang-Outan" ?',
+            4: 'Q4 : Quelle(s) est l\'origine du mot "Orang-Outan" ?',
             5: 'Q5 : Combien possède-t-il de main(s) ?', 
             6: 'Q6 : Combien possède-t-il de pied(s) ?',
             7: 'Q7 : Que ne mange-t-il pas ? ',
             8: 'Q8 : A combien de mètres du sol les Orangs-Outan conceptionnent leur nid ?', 
-            9: 'Q9 : Qu\'elle est la tranche de poids d\'un Orang-Outan ?',
-            10: 'Q10 : Qu\'elle est la moyenne d\'âge de ce primate ? '
+            9: 'Q9 : Quelle est la tranche de poids d\'un Orang-Outan ?',
+            10: 'Q10 : Quelle est la moyenne d\'âge de ce primate ? '
              
         },
         reponses: {
@@ -152,6 +153,7 @@ class Orang extends Component {
                         </div>
                     </>) : (
                         <div className="Page_fin">
+                            <img SRC={OrangOutan} alt="Image_orang_outan" className="C1"></img>
                             <h2>Le quizz sur les "Orang-Outans" est terminé ! </h2>
                             <p className="Message_reponse">Votre score est de : {score} / {Object.keys(questions).length}</p>
                         </div>
