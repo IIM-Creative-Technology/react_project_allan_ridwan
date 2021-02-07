@@ -1,10 +1,10 @@
 @import "../Helpers/variables";
 
 .App-C1{
-    /* height: 40vmin; */
     max-width: 100%;
     border-radius: 1em 1em 0 0;
     pointer-events: none;
+    max-height:  669px;
 }
 
 .Cards_style{
@@ -21,18 +21,16 @@
 
 .Card01{
     grid-row: 1;
-    // margin-left: 10px;
     background-color: $one_card;
-    border: 2px solid white;
+    border: 2px solid $white_text;
     border-radius: 1.1em;
 }
 
 .Card02{
     grid-row: 1;
     grid-row-start: 2;
-    // margin-left: 10px;
     background-color: $one_card;
-    border: 2px solid white;
+    border: 2px solid $white_text;
     border-radius: 1.1em;
 }
 
@@ -49,6 +47,7 @@
     border: 1px solid none;
     color: black;
     transform: translateY(-10px);
+    font-size: calc(10px + 2vmin);
 }
 
 .content{
@@ -56,9 +55,6 @@
 }
 
 @media (max-width: 800px) {
-	// .Card01, .Card02{
-    //     transform: translateY(-100px);  
-    // }
     .Cards_style{
         transform: translateY(-100px);
         grid-gap: 20px 20px;
@@ -67,13 +63,13 @@
         margin-top: 120px ;
     }
     .Card_title{
-        font-size: calc(10px + 2vmin);
+        font-size: calc(7px + 2vmin);
         color: $orange;
         font-weight: 300;
         transform: translateY(6px);
     }
     .Card_button{
-        font-size: calc(10px + 2vmin);
+        font-size: calc(7px + 2vmin);
         transform: translateY(-20px);
         width: 50%;
         cursor: pointer;

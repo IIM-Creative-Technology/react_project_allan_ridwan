@@ -4,7 +4,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient($orange_header, white);
+    background: linear-gradient($orange_header, $white_text);
+    min-height: 100vh;
+
 }
 
 .Titre_404{
@@ -21,6 +23,9 @@
 }
 
 @media (max-width: 800px) {
+    .Block_error{
+        min-height: 100vh;
+    }
 	.Titre_404{
         font-size: calc(150px + 2vmin);
         margin-block-start: 40px;

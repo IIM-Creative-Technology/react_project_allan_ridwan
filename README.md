@@ -1,8 +1,39 @@
-# Getting Started with Create React App
+# Questions pour un confiné par Ridwan et Allan - Projet React
+
+## Lien du projet
+
+Voici le lien du projet déployé sur Netlify : 
+
+## Description du projet
+
+Ce projet de cours, codé en React, est une landing page simple responsive permettant d'animer la vie des personnes confinées
+ou en télétravail. 
+Elle présente 4 quizz de 10 questions ayant 4 réponses possibles chacune. 
+Vous y trouverez aussi la météo instantanée de la ville de Paris.  
+Les styles sont implémentés en sass. 
+
+## Le WorkFlow Git 
+
+Nous avons ici un Gitflow optimisé pour travailler proprement sur le projet. 
+Vous y trouverez 3 types de branches bien défnies : la master, la develop/1.0 et les features. 
+    
+### La master
+
+Cette branche centralise l'application mise en production. Il y a très peu d'ajout de versions. Dans notre projet, il existe seulement 2 versions : la version de départ (V0) et la version 1 (V1), qui est la version du rendu. 
+
+### La develop/1.0
+
+C'est la branche de développement. C'est ici que Ridwan et moi avons travailler pour faire avancer le projet. 
+On y fusionne les différentes fonctionnalités au fur et à mesure.
+
+### Les features - "feature/nom0X
+
+Ces multiples branches ont permise d'implémenter les différentes fonctionnalité sur le projet. On pourrait parler de User Stories. 
+Une par une, les fonctionnalité vont être codées, puis fusionnées sur le branche "devlope/1.0". Pour fusionner, on parle de "Pull Requests".
+
+## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
 
 In the project directory, you can run:
 

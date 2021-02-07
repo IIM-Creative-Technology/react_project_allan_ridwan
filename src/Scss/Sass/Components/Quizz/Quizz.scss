@@ -1,0 +1,76 @@
+@import "../../Helpers/variables";
+
+.Form_quizz{
+    // padding-top: 100px ;
+    // padding-bottom: 100px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.Button_next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EtapeSuivante{
+    background-color: $orange_header;
+    color: $white_text;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: $font_title;
+}
+.EtapeSuivante:hover{
+    background-color: $bouton_suivant_hover;
+}
+.EtapeSuivante[disabled]{
+    display: none;
+}
+
+.Page_fin{
+    text-align: center;
+    margin-top: -70px;
+}
+
+.Page_fin h1{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 25px;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    text-transform: none;
+    text-shadow: none;
+}
+
+.C1{
+    width: 50%;
+    border-radius: 1em ;
+}
+
+.Message_reponse{
+    font-size: calc(12px + 2vmin);
+}
+
+@media (max-width: 800px) {
+	.C1{
+        width: 90%;
+        
+    }
+    .Titre_fin_quizz{
+        font-size: calc(14px + 2vmin);
+    }
+    .Form_quizz{
+        padding-top: 40px;
+        min-height: 100vh;
+    }
+    .Message_reponse{
+        font-size: calc(10px + 2vmin);
+    }
+    .Page_fin{
+        padding-top: 50px;
+    }
+}

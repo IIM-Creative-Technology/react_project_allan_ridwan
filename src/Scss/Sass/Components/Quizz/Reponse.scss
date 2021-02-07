@@ -1,0 +1,47 @@
+@import "../../Helpers/variables";
+
+.Reponses{
+    list-style: none;
+    margin: 0;
+    padding: 20px 90px 30px 90px;
+}
+.Reponses li{
+    padding: 20px;
+    border-left: 4px solid $orange_header;
+    background-color: $background_li;
+    margin: 0 0 5px 0;
+    font-family: $font_title;
+}
+.Reponses li:hover{
+    cursor: pointer;
+    background-color: $li_reponse_hover;
+}
+.Reponses .correct,
+.Reponses .correct:hover {
+    background-color: $succes_green;
+    border-left: 4px solid $succes_border_red;
+    color: $white_text;
+}
+.Reponses .incorrect,
+.Reponses .incorrect:hover {
+    background-color: $echec_red;
+    border-left: 4px solid $echec_border_red;
+    color: $white_text;
+}
+.Reponses[disabled] {
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.Message_reponse{
+    text-align: center;
+    font-family: $font_title;
+    color: $orange_header;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+    .Reponses{
+        padding: 10px 20px 30px 20px;
+    }
+}
