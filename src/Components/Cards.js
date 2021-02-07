@@ -13,28 +13,28 @@ const CardExampleCard = () => (
             <img src={Champions} className="App-C1" alt="Image_C1"/>
             <Card.Content>
                 <p className="Card_title">La Champions League</p>
-                <a href="/ChampionsLeague" className="Card_button">Commencer</a>
+                <a href="/championsLeague" className="Card_button">Commencer</a>
             </Card.Content>
         </Card>
         <Card className="Card01">
             <img src={Ourang} className="App-C1" alt="Image_Ourang" />
             <Card.Content>
                 <p className="Card_title">Les Orang-outans</p>
-                <a href="/Orang" className="Card_button">Commencer</a>
+                <a href="/orang" className="Card_button">Commencer</a>
             </Card.Content>
         </Card>
         <Card className="Card02">
             <img src={Biere} className="App-C1" alt="Image_alcool" />
             <Card.Content>
                 <p className="Card_title">L'alcool</p>
-                <a href="/Alcool" className="Card_button">Commencer</a>
+                <a href="/alcool" className="Card_button">Commencer</a>
             </Card.Content>
         </Card>
         <Card className="Card02">
             <img src={Corps} className="App-C1" alt="Image_Corps" />
             <Card.Content>
                 <p className="Card_title">Le corps humain</p>
-                <a href="/Corps" className="Card_button">Commencer</a>
+                <a href="/corps" className="Card_button">Commencer</a>
             </Card.Content>
         </Card>
     </div>

@@ -27,19 +27,19 @@ function Rooting() {
                 <Route exact path="/">
                     <Home />
                 </Route>  
-                <Route path="/Propos">
+                <Route path="/propos">
                     <Propos />
                 </Route>
-                <Route path="/ChampionsLeague">
+                <Route path="/championsLeague">
                     <Champion />
                 </Route>
-                <Route path="/Orang">
+                <Route path="/orang">
                     <Orang />
                 </Route>
-                <Route path="/Alcool">
+                <Route path="/alcool">
                     <Alcool />
                 </Route>
-                <Route path="/Corps">
+                <Route path="/corps">
                     <Corps />
                 </Route>
                 <Route path="*" exact component={Page404} />
