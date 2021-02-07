@@ -12,11 +12,11 @@ class Alcool extends Component {
             1: 'Q1 : Quelle est la substance principale de l\'alcool ?',
             2: 'Q2 : A quoi correspond le degré d\'un alcool ?',
             3: 'Q3 : Qu\'est-ce qu\'un verre standard ?',
-            4: 'Q4 : Quel alcool est né en dans les pays de l\'Est ? ',
+            4: 'Q4 : Quel alcool est né dans les pays de l\'Est ? ',
             5: 'Q5 : Quel alcool est né en Ecosse ?', 
             6: 'Q6 : Quel alcool spiritueux est le plus consommé au monde ?',
             7: 'Q7 : Quel est l\'ingrédient principal de la bière ? ',
-            8: 'Q8 : Comment appelle-t-on les bars à bières au Royaume-Uni?', 
+            8: 'Q8 : Comment appelle-t-on les bars à bière au Royaume-Uni?', 
             9: 'Q9 : Quel alcool est le "moins" fort ?',
             10: 'Q10 : L\'alcool c\'est de l\'eau ? '
              
@@ -79,7 +79,7 @@ class Alcool extends Component {
             10: {
                 1: 'Bah oui !',
                 2: 'Bah non !!',
-                3: 'ça dépend quoi', 
+                3: 'Ça dépend quoi', 
                 4: 'L\'eau contient + d\'éthanol'
             },
         },

@@ -5,7 +5,6 @@ import Meteo from "./Meteo/Meteo";
 import Api from "./Meteo/Meteo_Ville";
 import CardExampleCard from "./Cards";
 import BlockTitle from "./Title_Block_Cards";
-import Example from "../Components/Hook";
 
 function Home() {
     return (
@@ -19,7 +18,6 @@ function Home() {
         <Api />
         <BlockTitle/>
         <CardExampleCard />
-        <Example/>
         <Footer/>
       </>
     </div>

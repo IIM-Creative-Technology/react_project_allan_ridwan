@@ -12,7 +12,7 @@ class Orang extends Component {
             1: 'Q1 : Qu\'est-ce qu\'un Orang-Outan ?',
             2: 'Q2 : L\'Orang-Outan est : ',
             3: 'Q3 : Que signifie "Orang-Outan" ?',
-            4: 'Q4 : Quelle(s) est l\'origine du mot "Orang-Outan" ?',
+            4: 'Q4 : Quelle(s) sont/est les/l\'origine(s) du mot "Orang-Outan" ?',
             5: 'Q5 : Combien possède-t-il de main(s) ?', 
             6: 'Q6 : Combien possède-t-il de pied(s) ?',
             7: 'Q7 : Que ne mange-t-il pas ? ',
@@ -60,7 +60,7 @@ class Orang extends Component {
             },
             7: {
                 1: 'Des insectes',
-                2: 'Du poissons',
+                2: 'Du poisson',
                 3: 'Des écorces', 
                 4: 'De la viande'
             },
@@ -68,19 +68,19 @@ class Orang extends Component {
                 1: 'Entre 12 et 18 mètres',
                 2: 'Entre 20 et 30 mètres',
                 3: 'Entre 5 et 10 mètres', 
-                4: 'Au minimum à 1 mètres'
+                4: 'Au minimum à 1 mètre'
             },
             9: {
                 1: '50 à 100 kg',
                 2: '20 à 50 kg',
-                3: 'Pas plus de 60', 
+                3: 'Pas plus de 60 kg', 
                 4: '40 à 80 kg'
             },
             10: {
-                1: '20',
-                2: '35',
-                3: '15', 
-                4: '50'
+                1: '20 ans',
+                2: '35 ans',
+                3: '15 ans', 
+                4: '50 ans'
             },
         },
         reponseCorrects: {

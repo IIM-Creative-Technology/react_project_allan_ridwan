@@ -12,7 +12,7 @@ class Corps extends Component {
             1: 'Q1 : Quelle partie du corps est liée à l\'audition ?',
             2: 'Q2 : Quel est le terme médical de la colonne vertébrale ?',
             3: 'Q3 : Combien l\'homme a-t-il de doigt(s) ?',
-            4: 'Q4 : Combien la peau contient-elle de couche(s) ? ',
+            4: 'Q4 : Combien la peau contient-elle de couches ? ',
             5: 'Q5 : Quels organes produisent les ovules ?', 
             6: 'Q6 : Le coeur est composé de combien de partie(s) ?',
             7: 'Q7 : Qu\'est-ce que l\'ADN ? ',
@@ -38,7 +38,7 @@ class Corps extends Component {
                 1: '10',
                 2: '20',
                 3: '5', 
-                4: 'ça dépend selon l\'âge'
+                4: 'Ça dépend selon l\'âge'
             },
             4: {
                 1: '4',
@@ -49,7 +49,7 @@ class Corps extends Component {
             5: {
                 1: 'Les ovaires',
                 2: 'Les glandes intestinales', 
-                3: 'Le intestins',
+                3: 'Les intestins',
                 4: 'Les chromosomes'
             },
             6: {
@@ -77,7 +77,7 @@ class Corps extends Component {
                 4: 'Le quadriceps'
             },
             10: {
-                1: '"Inovation Magnétique du Corps',
+                1: 'Innovation Magnétique du Corps',
                 2: 'Indice de Masse Corporel',
                 3: 'Indice Minimal Corporel', 
                 4: 'Instabilité Métrique du Colon'

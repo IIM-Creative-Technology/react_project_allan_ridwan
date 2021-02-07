@@ -18,7 +18,7 @@ function Rooting() {
                             <Link to="/">Accueil</Link>
                         </li>
                         <li className="bulletpoint">
-                            <Link to="/Propos"> À propos</Link>
+                            <Link to="/propos"> À propos</Link>
                         </li>
                     </ul>
                 </nav>
@@ -48,6 +48,5 @@ function Rooting() {
     );
     
 }
-
 
 export default Rooting;

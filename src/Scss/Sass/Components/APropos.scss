@@ -1,0 +1,28 @@
+@import "../Helpers/variables";
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.like{
+    background-color: $orange_header;
+    color: $white_text;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 3px;
+    font-family: $font_title;
+}
+
+.container p {
+    color: $white_text;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: $font_title;
+}
