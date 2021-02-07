@@ -1,0 +1,24 @@
+@import "../../Helpers/variables";
+
+h2{
+    margin: 15px 0;;
+    font-size: 35px;
+    font-family: $font_title;
+    font-weight: normal;
+    color: $white_text;
+    text-transform: none;
+    text-shadow: none;
+    text-align: center;
+}
+
+.Form_quizz h3{
+    margin: 25px 0;
+    font-size: 22px;
+    font-family: $font_title;
+    font-weight: normal;
+    color: $white_text;
+    text-transform: none;
+    text-shadow: none;
+    text-align: center;
+}
+

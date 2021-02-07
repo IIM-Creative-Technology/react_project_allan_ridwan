@@ -1,0 +1,16 @@
+@import "../Helpers/variables";
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: $orange_header;
+    color: $white_text;
+    font-weight: 500;
+    font-size: calc(1px + 2vmin);
+}
+
+@media (max-width: 800px) {
+    .footer{
+        font-size: calc(3px + 2vmin);
+    }
+}

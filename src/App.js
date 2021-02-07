@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import './Scss/Sass/Components/_header.scss';
+import './Scss/Sass/Components/Desc.scss';
+import './Scss/Sass/Components/Meteo.scss';
+import './Scss/Sass/Components/_footer.scss';
+import './App.scss';
+
+
+import Router from "./Components/Router"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router/>
+    </>
   );
 }
 

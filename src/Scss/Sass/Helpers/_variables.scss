@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+    //////POLICE//////
+
+//Police Question pour un confiné
+$font_title : Russo One;
+
+    //////COULEUR BACKGROUND///////
+
+//Couleur text header
+$yellow :  #FFF202;
+$orange : #FF7000;
+
+//Couleur principale de texte et de 
+$white_text: white;
+
+//Couleur background de la navbar du footer et des boutons du quizz
+$orange_header : #FFB400;
+
+//Background card
+$one_card : rgb(236, 236, 236);
+
+//Background li réponse
+$background_li:rgb(196, 196, 196) ;
+
+//Survol des li des réponses
+$li_reponse_hover: #a2a2a2; 
+
+//Echec dans le quizz
+$echec_red: #ec0000 ;
+
+//Bordure li échec
+$echec_border_red :#FF3B3B ;
+
+//Succès dans le quizz
+$succes_green: #1db900 ;
+
+//Bordure li succes
+$succes_border_red :#0f6300 ;
+
+//Background bouton "Suivant" Quizz
+$bouton_suivant_hover: orange; 
+
+
+

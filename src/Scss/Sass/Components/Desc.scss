@@ -1,0 +1,52 @@
+@import "../Helpers/variables";
+
+.App-desc {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-size: calc(10px + 2vmin);
+    color: $white_text;
+}
+
+.App_game_title{
+    animation-name: color_title;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    margin-block-start: 0;
+    font-family: $font_title;
+    font-size: calc(40px + 2vmin);
+    margin-top: -30px;
+}
+
+.App-gif {
+    max-width: 100%;
+    pointer-events: none;
+  }
+ 
+.App_rep_quizz{
+    font-size: calc(12px + 2vmin);
+}
+
+@keyframes color_title {
+    0% {color: $white_text;}
+    20% {color: $yellow;}
+    80% {color: $orange;}
+    100% {color: $white_text;}
+    
+}
+
+@media (max-width: 800px) {
+    .App-desc{
+        font-size: calc(5px + 2vmin);
+      }
+    .App_game_title{
+        font-size: calc(17px + 2vmin);
+        margin-top: -15px;
+    }
+    .App_rep_quizz{
+        font-size: calc(8px + 2vmin);
+    }
+}
+  

@@ -1,0 +1,54 @@
+@import "../Helpers/variables";
+
+.App-meteo{
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(20px + 2vmin);
+    color: $white_text;
+    margin-block-end: 0;
+    margin-top: 100px;
+}
+
+.App-temp{
+    min-height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    font-size: calc(15px + 2vmin);
+    color: $white_text;
+    margin-top: -10px;
+    margin-block-end: 0;
+}
+
+.App-texte-temp01{
+    font-size: calc(10px + 2vmin);
+    grid-row: 1;
+}
+
+.App-texte-temp02{
+    font-size: calc(10px + 2vmin);
+    grid-row: 1;
+}
+.App-numero-temp{
+    font-size: calc(10px + 2vmin);
+}
+
+@media (max-width: 800px) {
+    .App-meteo{
+        font-size: calc(13px + 2vmin);
+        margin-top: 10px;
+        padding: 0 5px;
+    }
+    .App-temp{
+        font-size: calc(7px + 2vmin);
+    }
+    .App-texte-temp01 .App-texte-temp02{
+        font-size: calc(7px + 2vmin);
+    }
+    .App-numero-temp{
+        font-size: calc(7px + 2vmin);
+    }
+}
