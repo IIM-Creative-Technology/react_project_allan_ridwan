@@ -9,9 +9,9 @@ import BlockTitle from "./Title_Block_Cards";
 function Home() {
     return (
         <div className="App">
-      <header>
+      <section>
         <img src={logo} className="App-logo" alt="header" />
-      </header>
+      </section>
       <>
         <Header title="Bienvenue sur" game_title="Questions pour un Confiné !" desc="Vous voulez que votre temps passe plus vite ? Répondez à ce quizz !" />
         <Meteo ville="Paris" />

@@ -20,9 +20,6 @@ function Rooting() {
                         <li className="bulletpoint">
                             <Link to="/"> À propos</Link>
                         </li>
-                        {/* <li className="bulletpoint">
-                            <Link to="/quizz">Quizz</Link>
-                        </li> */}
                     </ul>
                 </nav>
             </div>  

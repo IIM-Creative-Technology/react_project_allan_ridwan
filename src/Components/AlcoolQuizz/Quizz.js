@@ -6,7 +6,7 @@ import Biere from "../../assets/biere-vertus.jpg";
 
 class Alcool extends Component {
 
-    // Préparation Questions / Réponse
+    // Préparation Questions / Réponses
     state = {
         questions: {
             1: 'Q1 : Quelle est la substance principale de l\'alcool ?',
@@ -30,7 +30,7 @@ class Alcool extends Component {
             },
             2: {
                 1: 'La quantité d\'alcool pour 100ml',
-                2: 'La quantité d\'alcool pour 100mg',
+                2: 'La quantité d\'alcool pour 1000mg',
                 3: 'La quantité d\'alcool pour 100mg', 
                 4: 'La quantité d\'alcool pour un verre (dose bar)'
             },
@@ -72,7 +72,7 @@ class Alcool extends Component {
             },
             9: {
                 1: 'Le vin rouge',
-                2: 'Le vin blan',
+                2: 'Le vin blanc',
                 3: 'Le cidre', 
                 4: 'Le champagne'
             },
@@ -127,6 +127,7 @@ class Alcool extends Component {
         });
     }
     //Méthode "render" qui va retourner les différentes questions et leurs réponses. 
+    
     render(){
         let { questions, reponses, reponseCorrect, choixReponse, step, score } = this.state;
         return(
@@ -138,6 +139,8 @@ class Alcool extends Component {
                         <Questions
                             question={questions[step]}
                         />
+
+                        
                         <Reponses
                             reponse={reponses[step]}
                             step={step}

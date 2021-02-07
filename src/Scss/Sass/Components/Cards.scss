@@ -1,7 +1,6 @@
 @import "../Helpers/variables";
 
 .App-C1{
-    /* height: 40vmin; */
     max-width: 100%;
     border-radius: 1em 1em 0 0;
     pointer-events: none;
@@ -22,7 +21,6 @@
 
 .Card01{
     grid-row: 1;
-    // margin-left: 10px;
     background-color: $one_card;
     border: 2px solid $white_text;
     border-radius: 1.1em;
@@ -31,7 +29,6 @@
 .Card02{
     grid-row: 1;
     grid-row-start: 2;
-    // margin-left: 10px;
     background-color: $one_card;
     border: 2px solid $white_text;
     border-radius: 1.1em;
@@ -58,9 +55,6 @@
 }
 
 @media (max-width: 800px) {
-	// .Card01, .Card02{
-    //     transform: translateY(-100px);  
-    // }
     .Cards_style{
         transform: translateY(-100px);
         grid-gap: 20px 20px;

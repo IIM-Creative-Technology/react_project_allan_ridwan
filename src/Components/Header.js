@@ -1,4 +1,4 @@
-import Julien from "../JulienLepers.gif";
+import Julien from "../assets/JulienLepers.gif";
 import '../Scss/Sass/Components/Desc.scss';
 
 const Header = ({title, desc, game_title}) => {

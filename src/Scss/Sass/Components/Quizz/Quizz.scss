@@ -1,8 +1,10 @@
 @import "../../Helpers/variables";
 
 .Form_quizz{
-    padding-top: 100px ;
-    padding-bottom: 100px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .Button_next{

@@ -5,9 +5,12 @@
     flex-direction: column;
     align-items: center;
     background: linear-gradient($orange_header, $white_text);
+    min-height: 100vh;
+
 }
 
 .Titre_404{
+    display: flex;
     font-size: calc(250px + 2vmin);
     margin-block-start: 40px;
     font-family: $font_title;

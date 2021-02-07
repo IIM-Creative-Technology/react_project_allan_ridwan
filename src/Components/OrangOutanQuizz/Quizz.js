@@ -6,7 +6,7 @@ import OrangOutan from "../../assets/Ourang-outan.svg";
 
 class Orang extends Component {
 
-    // Préparation Questions / Réponse
+    // Préparation Questions / Réponses
     state = {
         questions: {
             1: 'Q1 : Qu\'est-ce qu\'un Orang-Outan ?',

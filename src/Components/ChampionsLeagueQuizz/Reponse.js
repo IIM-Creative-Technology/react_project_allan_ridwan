@@ -1,30 +1,38 @@
 import React from 'react';
 import '../../Scss/Sass/Components/Quizz/Reponse.scss';
 
-const Reponses = (props) => {
-    let reponses = Object.keys(props.reponse).map((laReponse, i) => (
+const Reponses = ({ reponse, reponseCorrect, choixReponse, verifReponse }) => {
+
+    const random = Object.keys(reponse);
+
+    for(let i = random.length - 1; i > 0; i--){
+        const j = Math.floor(Math.random() * i)
+        const temp = random[i]
+        random[i] = random[j]
+        random[j] = temp
+      };
+
+    let reponses = random.map((laReponse, i) => (
             <li className={
-                props.reponseCorrect === laReponse ?
+                reponseCorrect === laReponse ?
                 'correct' : 
-                props.choixReponse === laReponse ? 
+                choixReponse === laReponse ? 
                 'incorrect' : ''
             }
-            onClick={() => props.verifReponse(laReponse)}
+            onClick={() => verifReponse(laReponse)}
             key={laReponse}>
-                {props.reponse[laReponse]}
+                {reponse[laReponse]}
             </li>
         ));
 
         return (
             <>
-                <ul disabled={props.choixReponse ? true : false} className="Reponses">
+                <ul disabled={choixReponse ? true : false} className="Reponses">
                     {reponses}
                 </ul>
                 <div className="Message_reponse">
-                {props.reponseCorrect ? 'Ah oui oui ! Bonne réponse !' :
-                props.choixReponse ? 'Aïe... Mauvaise réponse !' : ''}
-                    {/* <p className="Bonne_reponse">{props.reponseCorrect ? 'Ah oui oui oui ! Bonne réponse !' : ""}</p>
-                    <p className="Mauvaise_reponse">{props.choixReponse ? 'Aïe mauvais réponse !' : ''}</p> */}
+                {reponseCorrect ? 'Ah oui oui ! Bonne réponse !' :
+                choixReponse ? 'Aïe... Mauvaise réponse !' : ''}
                 </div>
             </>
         );

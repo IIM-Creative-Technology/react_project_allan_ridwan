@@ -6,7 +6,7 @@ import Champions from "../../assets/C1.jpg";
 
 class Champion extends Component {
 
-    // Préparation Questions / Réponse
+    // Préparation Questions / Réponses
     state = {
         questions: {
             1: 'Q1 : Qui est CR7 ?',
@@ -152,12 +152,10 @@ class Champion extends Component {
                             </button>
                         </div>
                     </>) : (
-                        // <Champions/>,
                         <div className="Page_fin">
                             <img src={Champions} alt="C1" className="C1"/>
                             <h2 className="Titre_fin_quizz">Le quizz sur la "Champions League" est terminé !</h2>
                             <p className="Message_reponse">Votre score est de : {score} / {Object.keys(questions).length}</p>
-                            {/* <button href="/ChampionsLeague" className="Button_retry">Refaire le quizz</button> */}
                         </div>
                     ) 
                 }

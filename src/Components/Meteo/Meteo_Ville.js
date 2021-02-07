@@ -26,9 +26,6 @@ class Api extends React.Component {
                         ids: result['id'],
                     });
                 },
-                // Remarque : il est important de traiter les erreurs ici
-                // au lieu d'utiliser un bloc catch(), pour ne pas passer à la trappe
-                // des exceptions provenant de réels bugs du composant.
                 (error) => {
                     this.setState({
                     isLoaded: true,
@@ -45,17 +42,9 @@ class Api extends React.Component {
       } else if (!isLoaded) {
         return <div>Chargement…</div>;
       } else {
-        // return true;
         const Kelvin = 273.15;
         const Celcius = items.temp - Kelvin;
         return (
-        //   <ul>
-        //     {items.map(item => (
-        //       <li key={item.temp}>
-        //         {item.temp} 
-        //       </li>
-        //     ))}
-        //   </ul>
         <div className="App-temp">
             <p className="App-texte-temp01">Température : 
               <br/>
