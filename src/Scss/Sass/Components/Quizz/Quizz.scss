@@ -1,10 +1,12 @@
 @import "../../Helpers/variables";
 
 .Form_quizz{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 100vh;
+    padding-top: 100px ;
+    padding-bottom: 100px ;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    min-height: 70vh;
 }
 
 .Button_next{
@@ -77,11 +79,12 @@
     }
     .Form_quizz{
         padding-top: 40px;
+        min-height: 80vh;
     }
     .Message_reponse{
         font-size: calc(10px + 2vmin);
     }
     .Page_fin{
-        padding-top: 60px;
+        padding-top: 50px;
     }
 }

@@ -126,8 +126,8 @@ class Alcool extends Component {
             choixReponse: 0
         });
     }
+
     //Méthode "render" qui va retourner les différentes questions et leurs réponses. 
-    
     render(){
         let { questions, reponses, reponseCorrect, choixReponse, step, score } = this.state;
         return(

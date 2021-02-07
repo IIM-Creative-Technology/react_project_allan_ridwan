@@ -18,7 +18,7 @@ function Rooting() {
                             <Link to="/">Accueil</Link>
                         </li>
                         <li className="bulletpoint">
-                            <Link to="/"> À propos</Link>
+                            <Link to="/Propos"> À propos</Link>
                         </li>
                     </ul>
                 </nav>

@@ -10,7 +10,7 @@
 }
 
 .Titre_404{
-    display: flex;
+    // display: flex;
     font-size: calc(250px + 2vmin);
     margin-block-start: 40px;
     font-family: $font_title;
@@ -24,6 +24,9 @@
 }
 
 @media (max-width: 800px) {
+    .Block_error{
+        min-height: 100vh;
+    }
 	.Titre_404{
         font-size: calc(150px + 2vmin);
         margin-block-start: 40px;
