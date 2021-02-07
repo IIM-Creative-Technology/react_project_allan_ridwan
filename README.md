@@ -2,7 +2,7 @@
 
 ## Lien du projet
 
-Voici le lien du projet déployé sur Netlify : https://silly-meninsky-72a15e.netlify.app/ChampionsLeague
+Voici le lien du projet déployé sur Netlify : https://silly-meninsky-72a15e.netlify.app/
 
 ## Description du projet
 
@@ -28,8 +28,8 @@ On y fusionne les différentes fonctionnalités au fur et à mesure.
 
 ### Les features - "feature/nom0X"
 
-Ces multiples branches ont permise d'implémenter les différentes fonctionnalité sur le projet. On pourrait parler de User Stories. 
-Une par une, les fonctionnalités vont être codées, puis fusionnées sur le branche "devlope/1.0". Pour fusionner, on parle de "Pull Requests".
+Ces multiples branches ont permise d'implémenter les différentes fonctionnalités sur le projet. On pourrait parler de User Stories. 
+Une par une, les fonctionnalités vont être codées, puis fusionnées sur la branche "devlope/1.0". Pour fusionner, on parle de "Pull Requests".
 
 ## Getting Started
 

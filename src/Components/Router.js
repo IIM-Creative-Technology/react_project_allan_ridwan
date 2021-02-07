@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Home from "./Home";
 import Propos from "./APropos";
 import Page404 from './Error404.js';
